@@ -11,7 +11,7 @@
     overflow: hidden;
     min-height: 100vh;
   }
-
+  
   .event{
     display: block;
     color: #ffffff;
@@ -241,3 +241,9 @@ button:hover{
       
   }
 } */
+/* responsive */
+@media(max-width:62em){
+  #events_cards{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
