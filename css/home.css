@@ -8,16 +8,6 @@ body{
 /* Styling for about section */
 
 
-*{
-    color: white;
-}
-body{
-    background-color: black;
-}
-
-/* Styling for about section */
-
-
 .about-section{
     display: flex;
     justify-content: space-between;
