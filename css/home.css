@@ -8,56 +8,92 @@ body{
 /* Styling for about section */
 
 
-.about-section{
-    display: flex;
-    justify-content: space-between;
+*{
+    color: white;
 }
-.about{
+body{
+    background: linear-gradient(90deg,#10052c,rgb(100, 4, 15));
+    /* background-image: url("../assets/images/bg\ red.jpg"); */
+}
 
-    padding-left: 20px;
-    margin-top: 350px;
-    padding-bottom: 50px;
+/* Styling for about section */
+
+
+.about-section{
+    /* display: flex;
+    justify-content: center; */
+    background-image: url("../assets/images/bg grad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 100px 150px;
+}
+/* .about{
+    
+    
+    justify-content: center;
+    align-items: center;
+    color: black;
+  } */
+.main{
+    /* margin: 60px 100px; */
+    text-align: center;
+    padding: 50px;
+    /* padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px; */
+    background-color: rgba(255, 255, 255, 0.261);
   }
-.about h1{
-  
-      display: inline-block;
-      font-family: 'Crimson Text', serif;
-      font-size: 50px;
+.main h1{
+    font-size: 4rem;
+    font-weight: 1000;
+      /* display: inline-block; */
+      /* font-family: 'Crimson Text', serif; */
+      /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+      /* font-size: 50px; */
       letter-spacing: 2px;
       color: white;
+}
+  /* .nav-list{
+    color: blue;
+  } */
+/* .about .secondline{ */
   
   
-  }
-.about .secondline{
+      /* display: block; */
+      /* font-family: 'Crimson Text', serif; */
+      /* font-size: 50px; */
+      /* padding-top: 10px; */
+      /* color: white; */
+      /* padding-left: 150px; */
   
   
-      display: block;
-      font-family: 'Crimson Text', serif;
-      font-size: 50px;
-      padding-top: 10px;
-      color: white;
-      padding-left: 150px;
-  
-  
-  }
+  /* } */
 
 /* STYING OF T IN "The annual" */
-.about-T{
+/* .about-T{
     font-size: 70px;
     font-family: 'Crimson Text', serif;
     font-weight: bolder;
     color: aqua;
+} */
+.faqs{
+    background: linear-gradient(90deg,#10052c,rgb(100, 4, 15));
+    padding: 20px;
 }
 .about-para{
-
-    margin-top: -20px;
-    margin-bottom: 30px;
-    padding-left: 20px;
-    max-width: 40% ;
+    /* background-color:#0d0a27; */
+    /* background: linear-gradient(90deg,#10052c,rgba(0,0,0,0.75)); */
+    background: linear-gradient(90deg,#10052c,rgb(100, 4, 15));
+    margin: 50px;
+    text-align: center;
+    /* max-width: 40% ; */
     line-height: 25px;
     color: wheat;
     font-size: large;
     font-style: italic;
+    border: 2px solid white;
+    padding: 20px;
 }
 @media (max-width:802px){
     .about-para{
