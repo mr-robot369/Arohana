@@ -1,9 +1,10 @@
 
 .accordion{
-    max-width: 75%;
-    width: 100%;
+    
+    /* width: 100%; */
+    justify-content: center;
     background: #fff;
-    margin: 15px;
+    padding-bottom: 40px;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 4px rgba(0,0,0,0.2) ;
@@ -20,6 +21,14 @@
 .accordion-content:nth-child(2){
     background-color: #f0faff;
     border-color: #cceeff;
+}
+.accordion-content:nth-child(3){
+    background-color: rgb(255, 255, 195);
+    border-color: rgb(255, 247, 7);
+}
+.accordion-content:nth-child(4){
+    background-color: #c9fdeb;
+    border-color: #03C988;
 }
 .accordion-content.open{
     padding-bottom:10px ;
@@ -58,10 +67,12 @@
 
 }
 .faq-heading{
+    padding-top:50px;
+    padding-bottom: 30px;
     font-size: 50px;
     color: white;
     display: flex;
     justify-content: center;
-    margin: 30px 0;
+    /* margin: 30px 0; */
 
 }
