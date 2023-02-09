@@ -132,6 +132,20 @@ button:hover{
   animation: modal-open 1s ease-out;
   
 }
+@media  screen and (max-width:400px) {
+  .modal-header{
+    font-size: 1rem;
+  }
+  .modal-content{
+    width: 40%;
+   align-items: center;
+   margin-left: 35PX;
+}
+.modal-body .poster img{
+  max-width: 120px;
+}
+
+}
 .modal-header{
   font-weight: 500;
   padding: 10px 0;
