@@ -8,11 +8,25 @@ body{
 /* Styling for about section */
 
 
+*{
+    color: white;
+}
+body{
+    background-color: black;
+}
 
+/* Styling for about section */
+
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+}
 .about{
 
     padding-left: 20px;
     margin-top: 350px;
+    padding-bottom: 50px;
   }
 .about h1{
   
@@ -44,9 +58,10 @@ body{
     font-weight: bolder;
     color: aqua;
 }
-.about p{
+.about-para{
 
-    margin-top: 20px;
+    margin-top: -20px;
+    margin-bottom: 30px;
     padding-left: 20px;
     max-width: 40% ;
     line-height: 25px;
@@ -55,8 +70,9 @@ body{
     font-style: italic;
 }
 @media (max-width:802px){
-    .about p{
+    .about-para{
         min-width: 100%;
     }
 }
+
 

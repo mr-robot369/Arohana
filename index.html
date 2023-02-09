@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,9 +29,9 @@
             <ul class="nav-unod-list">
 
                 <li class="nav-list"><a href="index.html" class="nav-link"> Home </a></li>
-                <li class="nav-list"><a href="./competitions.html" class="nav-link"> Events </a></li>
-                <li class="nav-list"><a href="./timeline.html" class="nav-link"> Timeline and Stream </a></li>
-                <li class="nav-list"><a href="#FAQ" class="nav-link"> FAQs </a></li>
+                <li class="nav-list"><a href="#" class="nav-link"> Events </a></li>
+                <li class="nav-list"><a href="#" class="nav-link"> Timeline and Stream </a></li>
+                <li class="nav-list"><a href="#faq-section" class="nav-link"> FAQs </a></li>
                 <li class="nav-list"><a href="./contact.html" class="nav-link" target="_blank"> Contacts </a></li>
             </ul>
         </nav>
@@ -47,7 +48,7 @@
 
     <!-- ====================================================================================
     
-    HTML Code for About Section
+    HYML Code for About Section
 
     ==================================================================================-->
 
@@ -57,15 +58,83 @@
         <div class="about">
             <h1 class=".about-heading-primary"> <span class="about-T">T</span>HE ANNUAL </h1>
             <div class="secondline">CULTURAL FEST</div>
-            <p>
-                Aaghaz is the Annual Cultural Fest of PGDAV College and is organized
-                with great pomp and show. It's extended over in two days,
-                where each day inculcates numerous competitions of our adept college societies. This year the 5th and
-                6th of April, 2022 will witness the fall of Aaghaz.
-            </p>
+
         </div>
 
+        <div class="lottie">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_dyaklis1.json"  background="transparent"  speed="1"  style="width: 1000px;"  loop  autoplay></lottie-player>
+        </div>  
+
     </section>
+    <p class="about-para">
+        Aaghaz is the Annual Cultural Fest of PGDAV College and is organized
+        with great pomp and show. It's extended over in two days,
+        where each day inculcates numerous competitions of our adept college societies. This year the 5th and
+        6th of April, 2022 will witness the fall of Aaghaz.
+    </p>
+
+
+<!-- 
+    HTML code for FAQ section
+    
+    style of faq section is in style.css and
+    javascript of faq section is in faq.js file
+ -->
+ 
+ <p class="faq-heading"> FAQ's</p>
+
+ <section class="accordion" id="faq-section" >
+    <div class="accordion-content">
+        <header>
+            <span class="title">Question 1?</span>
+            <i class="fa-solid fa-plus"></i>
+        </header>
+
+        <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id quasi reiciendis dicta ratione
+            assumenda consequuntur accusantium distinctio delectus? Labore magnam nemo aliquam eveniet tempore at
+            odio nihil qui a?
+        </p>
+    </div>
+
+    <div class="accordion-content">
+        <header>
+            <span class="title">Question 2?</span>
+            <i class="fa-regular fa-plus"></i>
+        </header>
+
+        <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id quasi reiciendis dicta ratione
+            assumenda consequuntur accusantium distinctio delectus? Labore magnam nemo aliquam eveniet tempore at
+            odio nihil qui a?
+        </p>
+    </div>
+    <div class="accordion-content">
+        <header>
+            <span class="title">Question 3?</span>
+            <i class="fa-regular fa-plus"></i>
+        </header>
+
+        <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id quasi reiciendis dicta ratione
+            assumenda consequuntur accusantium distinctio delectus? Labore magnam nemo aliquam eveniet tempore at
+            odio nihil qui a?
+        </p>
+    </div>
+    <div class="accordion-content">
+        <header>
+            <span class="title">Question 4?</span>
+            <i class="fa-regular fa-plus"></i>
+        </header>
+
+        <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id quasi reiciendis dicta ratione
+            assumenda consequuntur accusantium distinctio delectus? Labore magnam nemo aliquam eveniet tempore at
+            odio nihil qui a?
+        </p>
+    </div>
+</section>
 
 
 
@@ -90,7 +159,7 @@
 
             <div class="footer-column">
                 <div class="address">
-                    <img src="assets/PGDAVLogo.png" alt=" PGDAV LOGO" class="footer-pgdav-logo">
+                    <img src="./assets/PGDAVLogo.png" alt=" PGDAV LOGO" class="footer-pgdav-logo">
                     <address>
                         Ring Road,
                         Nehru Nagar,
@@ -110,7 +179,7 @@
                 </ul>
                 <div class="footer-techwhiz-logo">
                     <a href="http://pgdavcollege.edu.in/hyperion/techwhiz.html">
-                        <img src="assets/techwhizlogo2.jpeg" alt="TechWhiz Logo" style="width: 6rem;">
+                        <img src="./assets/techwhizlogo2.jpeg" alt="TechWhiz Logo" style="width: 6rem;">
                     </a>
                 </div>
 
@@ -122,7 +191,9 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <!-- Java Script file for function -->
-    <script src="Javascript/index.js"></script>
+    <script src="./Javascript/index.js"></script>
+    <script src="./Javascript/faq.js"></script>
+    
 
 </body>
 
